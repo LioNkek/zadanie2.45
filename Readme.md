@@ -1,6 +1,6 @@
 # Личный проект «{{projectTitle}}»
 
-* Студент: [{{userName}}]({{userProfile}}).
+* Студент: [Lev]({{userProfile}}).
 * Наставник: `Неизвестно`.
 * Сайт: [2.45. Разметка всех страниц](https://lionkek.github.io/testsite/)
 ---
