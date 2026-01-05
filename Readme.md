@@ -2,7 +2,7 @@
 
 * Студент: [Lev]({{userProfile}}).
 * Наставник: `Неизвестно`.
-* Сайт: [2.45. Разметка всех страниц](https://lionkek.github.io/zadanie2.45/index.html)
+* Сайт: [седона](https://lionkek.github.io/zadanie2.45/index.html)
 ---
 
 _Не удаляйте и не обращайте внимание на файлы:_<br>
