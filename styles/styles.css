@@ -53,6 +53,14 @@ img {
   width: 100%;
   margin: 0 auto;
   max-width: 1200px;
+
+  display: flex;
+  flex-direction: column;
+  min-height: 100vh;
+}
+
+main {
+  flex-grow: 1;
 }
 
 .page-header {
@@ -98,6 +106,7 @@ img {
   margin: 0 28px -6px 70px;
   display: flex;
   flex-wrap: wrap;
+  z-index: 1;
 }
 
 .navigation-link {
