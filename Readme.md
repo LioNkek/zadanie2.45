@@ -2,4 +2,4 @@
 
 * Студент: [Lev](https://github.com/LioNkek)
 * Наставник: `Неизвестно`.
-* Сайт: [седона](https://lionkek.github.io/zadanie2.45/)
+* Сайт: [седона](https://lionkek.github.io/Senodalevk/)
