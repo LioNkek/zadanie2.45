@@ -72,6 +72,7 @@ main {
   width: 100%;
   justify-content: space-between;
   display: flex;
+  z-index: 1;
 }
 
 .navigation-main-list {
@@ -234,6 +235,7 @@ main {
 .advantages-item-img {
   padding: 0;
   background: #83B3D31F;
+  width: 800px;
 }
 
 .advantages-item-title {
@@ -277,6 +279,7 @@ main {
 .advantages-item-container {
   padding: 102px 85px;
   flex-grow: 1;
+  width: 230px;
 }
 
 .advantages-item-title-special {
@@ -1140,6 +1143,11 @@ input:focus + .price-from {
     "stars        rating";
 }
 
+.hotel-card-link {
+  grid-area: img;
+  min-height: 200px;
+}
+
 .hotel-card-image {
   -ms-grid-row: 1;
   -ms-grid-column: 1;
@@ -1197,6 +1205,7 @@ input:focus + .price-from {
   padding: 8px;
   text-align: center;
   grid-area: btn-more;
+  align-self: self-end;
 }
 
 .facorites {
@@ -1206,6 +1215,7 @@ input:focus + .price-from {
   padding: 8px;
   grid-area: favorites;
   width: 140px;
+  align-self: self-end;
 }
 
 .facorites-favorite {
@@ -1262,6 +1272,7 @@ input:focus + .price-from {
   grid-area: rating;
   margin: 0;
   width: 95px;
+  align-self: self-end;
 }
 
 .pagination-block {
@@ -1405,7 +1416,7 @@ input:focus + .price-from {
   color: #000000;
   font-style: normal;
   margin: 0 0 64px 0;
-  padding: 0;
+  padding: 0 35px 0 0;
 }
 
 .search-form {
