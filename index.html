@@ -19,7 +19,7 @@
       <nav class="navigation">
         <ul class="navigation-main-list">
           <li class="navigation-item">
-            <a class="navigation-link navigation-link-current" href="index.html" aria-current="page">
+            <a class="navigation-link navigation-link-current" aria-current="page">
               Главная
             </a>
           </li>
@@ -53,9 +53,9 @@
             </a>
           </li>
           <li class="navigation-item navigation-item-button">
-            <button class="navigation-link-button button" type="button">
+            <a class="navigation-link-button button" href="#">
               Хочу сюда!
-            </button>
+            </a>
           </li>
         </ul>
       </nav>
@@ -140,8 +140,7 @@
           </p>
         </div>
         <ul class="services-list">
-          <li class="services-item">
-            <img src="images/svg/vector-home.svg" width="75" height="72" alt="иконка домика">
+          <li class="services-item services-item-home">
             <h3 class="services-item-title">
               Жильё
             </h3>
@@ -150,8 +149,7 @@
             </p>
 
           </li>
-          <li class="services-item services-item-special">
-            <img src="images/svg/vector-food.svg" width="75" height="72" alt="иконка еды">
+          <li class="services-item services-item-special services-item-food">
             <h3 class="services-item-title">
               Еда
             </h3>
@@ -159,8 +157,7 @@
               Всегда заказывайте<br> топовый фирменный бургер, вы не разочаруетесь!
             </p>
           </li>
-          <li class="services-item">
-            <img src="images/svg/vector-box.svg" width="75" height="72" alt="иконка коробки">
+          <li class="services-item services-item-gift">
             <h3 class="services-item-title">
               Сувениры
             </h3>
@@ -239,10 +236,11 @@
           </li>
         </ul>
       </section>
-      <a class="contact-number" href="tel:88128121212">
+      <a class="contact-number" href="tel:+78128121212">
         +7 (812) 812-12-12
       </a>
       <a class="htmlacademy-link" href="https://htmlacademy.ru/">
+        <span class="visually-hidden">Ссылка на htmlacademy</span>
         <svg class="contact-logo" width="115" height="33" viewBox="0 0 115 33" xmlns="http://www.w3.org/2000/svg">
           <path d="M0 12.9V15.5H2.5V12.9H0Z" />
           <path
@@ -273,7 +271,7 @@
   <!-- modal-container-off  удаляет модальное окно-->
   <div class="modal-container modal-container-off">
     <div class="modal modal-find-hotels">
-      <button class="modal-close-button">
+      <button class="modal-close-button" type="button">
         <span class="visually-hidden">Закрыть окно</span>
       </button>
       <section class="modal-content">

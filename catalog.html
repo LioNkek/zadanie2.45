@@ -29,7 +29,7 @@
             </a>
           </li>
           <li class="navigation-item">
-            <a class="navigation-link  navigation-link-current" href="catalog.html" aria-current="page">
+            <a class="navigation-link  navigation-link-current" aria-current="page">
               Гостиницы
             </a>
           </li>
@@ -53,34 +53,29 @@
             </a>
           </li>
           <li class="navigation-item navigation-item-button">
-            <button class="navigation-link-button button" type="button">
+            <a class="navigation-link-button button" href="#">
               Хочу сюда!
-            </button>
+            </a>
           </li>
         </ul>
       </nav>
     </header>
-    <main>
+    <main class="main">
       <div class="main-inner">
         <header class="header-inner">
           <h1 class="header-inner-title">
             Гостиницы Седоны
           </h1>
-          <ul class="breadcrumbs">
-            <li class="breadcrumbs-list">
-              <a class="breadcrumbs-item" href="index.html">
+          <ul class="breadcrumbs-list">
+            <li class="breadcrumbs-item">
+              <a class="breadcrumbs-link breadcrumbs-link-home" href="index.html">
                 <span class="visually-hidden">
                   Главная
                 </span>
               </a>
             </li>
-            <li class="breadcrumbs-list">
-              <span class="breadcrumbs-item-arrow">
-                <span class="visually-hidden">
-                  стрелочка
-                </span>
-              </span>
-              <a class="breadcrumbs-item-hotels" aria-current="page" href="" onclick="return false">
+            <li class="breadcrumbs-item">
+              <a class="breadcrumbs-link breadcrumbs-link-current" aria-current="page" onclick="return false">
                 Гостиницы
               </a>
             </li>
@@ -436,10 +431,11 @@
           </li>
         </ul>
       </section>
-      <a class="contact-number" href="tel:88128121212">
+      <a class="contact-number" href="tel:+78128121212">
         +7 (812) 812-12-12
       </a>
       <a class="htmlacademy-link" href="https://htmlacademy.ru/">
+        <span class="visually-hidden">Ссылка на htmlacademy</span>
         <svg class="contact-logo" width="115" height="33" viewBox="0 0 115 33" xmlns="http://www.w3.org/2000/svg">
           <path d="M0 12.9V15.5H2.5V12.9H0Z" />
           <path
