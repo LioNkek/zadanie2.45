@@ -939,11 +939,22 @@ img {
 .field-from {
   border-radius: 4px 0 0 4px;
   margin-right: 2px;
-  -moz-appearance: textfield;
 }
 
 .field-to {
   border-radius: 0 4px 4px 0;
+}
+
+.field-from::-webkit-inner-spin-button,
+.field-form::-webkit-outer-spin-button,
+.field-to::-webkit-inner-spin-button,
+.field-to::-webkit-outer-spin-button {
+  -webkit-appearance: none;
+  margin: 0;
+}
+
+.field-from,
+.field-to {
   -moz-appearance: textfield;
 }
 
@@ -953,15 +964,11 @@ img {
   position: relative;
   z-index: 1;
   background-color: #E5E5E5;
-  -moz-appearance: none;
-
 }
 
 .field-from:not(:disabled):hover,
 .field-to:not(:disabled):hover {
   background-color: #E5E5E5;
-  -moz-appearance: none;
-
 }
 
 .field::placeholder {
@@ -984,12 +991,6 @@ img {
   overflow: hidden;
 }
 
-.price-inputs:not(:has(input:disabled)):hover .price-to,
-.price-inputs:not(:has(input:disabled)):hover .price-from,
-input:not(:disabled):focus + .price-to,
-input:not(:disabled):focus + .price-from {
-  display: none;
-}
 
 .range-scale {
   position: relative;
@@ -1436,6 +1437,18 @@ input:not(:disabled):focus + .price-from {
   padding: 12px 10px;
 }
 
+.pagination-current:focus,
+.pagination-current:hover {
+  background: #F2F2F2;
+  outline: none;
+  color: #000000;
+}
+
+.pagination-current:active {
+  background: #F2F2F2;
+  color: #000000;
+}
+
 .pagination-link-next {
   background-color: transparent;
   color: #000000;
@@ -1676,6 +1689,7 @@ input:not(:disabled):focus + .price-from {
   height: 20px;
   fill: #756157;
   fill-opacity: 0.3;
+  background-color: transparent;
 }
 
 .input-age-down-button:not(:disabled):focus,
